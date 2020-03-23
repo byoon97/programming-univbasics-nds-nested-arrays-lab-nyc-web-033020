@@ -22,7 +22,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  produce_storage_room = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE].sort
+  produce_storage_room = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
   return produce_storage_room
 end
 
